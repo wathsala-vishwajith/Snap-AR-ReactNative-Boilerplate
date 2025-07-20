@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@react-native/new-app-screen": "0.80.1",
+    "@snap/camera-kit-react-native": "^0.6.0",
     "react": "19.1.0",
     "react-native": "0.80.1",
     "react-native-dotenv": "^3.4.11"

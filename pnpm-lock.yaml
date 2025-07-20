@@ -11,6 +11,9 @@ importers:
       '@react-native/new-app-screen':
         specifier: 0.80.1
         version: 0.80.1(@types/react@19.1.8)(react-native@0.80.1(@babel/core@7.28.0)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
+      '@snap/camera-kit-react-native':
+        specifier: ^0.6.0
+        version: 0.6.0(react-native@0.80.1(@babel/core@7.28.0)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -1040,6 +1043,13 @@ packages:
 
   '@sinonjs/fake-timers@10.3.0':
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
+
+  '@snap/camera-kit-react-native@0.6.0':
+    resolution: {integrity: sha512-Ln3G+YGZBLapP+4oRE2j3imnWT7GSZuU3Ca1JkCecEfwi60JjBLoqqEOBfa46RH8aNgNanOl1ueSoBPhxgBgvQ==}
+    engines: {node: '>= 20'}
+    peerDependencies:
+      react: '*'
+      react-native: '*'
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -4915,6 +4925,11 @@ snapshots:
   '@sinonjs/fake-timers@10.3.0':
     dependencies:
       '@sinonjs/commons': 3.0.1
+
+  '@snap/camera-kit-react-native@0.6.0(react-native@0.80.1(@babel/core@7.28.0)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      react: 19.1.0
+      react-native: 0.80.1(@babel/core@7.28.0)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0)
 
   '@types/babel__core@7.20.5':
     dependencies:
